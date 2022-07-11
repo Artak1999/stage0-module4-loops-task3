@@ -6,6 +6,6 @@ public class DigitsSum {
         for(sum=0; t!=0; t=t/10)  {
             sum = sum + t % 10;
         }
-        System.out.println(sum);
+        System.out.println(Math.abs(sum));
     }
 }
